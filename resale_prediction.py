@@ -119,4 +119,4 @@ input_df = pd.DataFrame([input_data])
 
 if st.button('Predict Resale Price'):
     prediction = model.predict(input_df)
-    st.write(f'Predicted Resale Price: {prediction[0]:.2f} SGD')
+    st.write(f'Predicted Resale Price: SGD {prediction[0]:,.2f}')
